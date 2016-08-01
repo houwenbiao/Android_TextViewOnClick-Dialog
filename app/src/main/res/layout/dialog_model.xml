@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/model_cold"
+            android:layout_width="55dp"
+            android:layout_height="85dp"
+            android:text="制冷"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/model_dry"
+            android:layout_width="55dp"
+            android:layout_height="85dp"
+            android:text="除湿"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/model_fan"
+            android:layout_width="55dp"
+            android:layout_height="85dp"
+            android:text="送风"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/model_heat"
+            android:layout_width="55dp"
+            android:layout_height="85dp"
+            android:text="制热"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/btn"
+            android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
